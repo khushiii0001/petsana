@@ -3,25 +3,66 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Petsana – Pet Meds &amp; Health Log</title>
+<title>Petsana – Pet Meds &amp; Health Log for iPhone</title>
+<meta name="description" content="Dose reminders, daily check-ins, vaccine records and vet-ready PDF reports for pets with ongoing health needs. Download Petsana on the App Store.">
+<meta name="apple-itunes-app" content="app-id=6821607946">
+<meta property="og:title" content="Petsana – Pet Meds &amp; Health Log">
+<meta property="og:description" content="Never miss a dose. Track your pet's medicines, symptoms and vet visits, and share a clear report with your vet.">
+<meta property="og:image" content="https://khushiii0001.github.io/petsana/icon.png">
+<meta property="og:url" content="https://khushiii0001.github.io/petsana/">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
-  :root { --ink:#1b2430; --muted:#5b6675; --accent:#17808f; --bg:#ffffff; }
-  @media (prefers-color-scheme: dark) { :root { --ink:#e8edf2; --muted:#a3adb8; --accent:#46c8cd; --bg:#101820; } }
-  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  main { max-width:720px; margin:0 auto; padding:40px 20px 60px; }
-  h1 { font-size:30px; margin:0 0 4px; } h2 { font-size:19px; margin:32px 0 8px; color:var(--accent); }
-  .muted { color:var(--muted); } a { color:var(--accent); } li { margin:4px 0; }
+  :root { --ink:#10393c; --muted:#4f6669; --accent:#0b8c93; --soft:#e1f1ee; --card:#ffffff; --bg:#f6fbfa; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#e8f2f1; --muted:#a3b8ba; --accent:#46c8cd; --soft:#14302f; --card:#162426; --bg:#0e1a1b; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:56px 20px 48px; }
+  .hero { text-align:center; }
+  .icon { width:112px; height:112px; border-radius:26px; box-shadow:0 12px 32px rgba(11,140,147,.28); }
+  h1 { font-size:clamp(34px, 6vw, 52px); line-height:1.08; letter-spacing:-1px; margin:22px 0 10px; }
+  .lede { font-size:19px; color:var(--muted); max-width:560px; margin:0 auto; }
+  .badge { display:inline-block; margin:28px 0 8px; }
+  .badge img { height:56px; width:auto; display:block; }
+  .note { font-size:14px; color:var(--muted); margin:0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:14px; margin:52px 0 0; }
+  .card { background:var(--card); border-radius:18px; padding:20px 20px 18px; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+  .card h2 { font-size:17px; margin:0 0 4px; color:var(--accent); }
+  .card p { margin:0; font-size:15.5px; color:var(--muted); }
+  .private { background:var(--soft); border-radius:18px; padding:20px; margin:14px 0 0; text-align:center; font-size:15.5px; }
+  footer { text-align:center; margin-top:44px; font-size:15px; color:var(--muted); }
+  footer a { color:var(--accent); text-decoration:none; margin:0 10px; }
+  footer a:hover { text-decoration:underline; }
 </style>
 </head>
 <body>
-<h1>Petsana</h1>
-<p class="muted">Pet meds &amp; health log for iPhone</p>
-<p>Dose reminders, daily check-ins, weight and condition tracking, vaccine records and vet-ready PDF reports for pets with ongoing health needs. Everything stays on your iPhone.</p>
-<h2>Links</h2>
-<ul>
-  <li><a href="privacy.html">Privacy Policy</a></li>
-  <li><a href="support.html">Support &amp; FAQ</a></li>
-</ul>
+<main>
+<section class="hero">
+  <img class="icon" src="icon.png" alt="Petsana app icon">
+  <h1>Never miss your pet's dose.</h1>
+  <p class="lede">Medicine reminders, daily check-ins and vet-ready reports for dogs and cats with ongoing health needs.</p>
+  <a class="badge" href="https://apps.apple.com/app/id6821607946">
+    <img src="https://tools.applemarketingtools.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store">
+  </a>
+  <p class="note">Free to download for iPhone. Premium includes a 1-week free trial.</p>
+</section>
+
+<section class="grid">
+  <div class="card"><h2>Dose reminders</h2><p>Insulin, tablets, drops and preventatives on schedule, with one-tap logging.</p></div>
+  <div class="card"><h2>Daily check-ins</h2><p>Appetite, energy, pain, vomiting and more, logged in seconds.</p></div>
+  <div class="card"><h2>Charts &amp; insights</h2><p>Glucose, seizures, mobility and weight over days, weeks or months.</p></div>
+  <div class="card"><h2>Vet-ready PDF reports</h2><p>Meds given, missed doses, symptoms and charts, shared with your vet in one tap.</p></div>
+  <div class="card"><h2>Vaccines &amp; records</h2><p>Due-date reminders, vet visit notes and scanned lab results in one place.</p></div>
+  <div class="card"><h2>Pet sitter care sheets</h2><p>Medicines, contacts and a tick-box dose checklist for whoever is looking after them.</p></div>
+</section>
+
+<p class="private">🔒 Your pets' records stay on your iPhone. No account, no tracking.</p>
+
+<footer>
+  <a href="support.html">Support &amp; FAQ</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="mailto:petsana.help@gmail.com">petsana.help@gmail.com</a>
+</footer>
 </main>
 </body>
 </html>
